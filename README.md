@@ -13,8 +13,6 @@ by undefined
 
 ## Description
 Create a program using NodeJS to have users fill out information and upon filling out said information, the program generates a README.md file.
-## Requirements
-undefined
 ## Usage
 Refer to above^
 ## Contact-me
