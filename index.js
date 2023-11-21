@@ -21,6 +21,21 @@ const questions = [
     },
     {
         type: 'input',
+        message: "What is your name?",
+        name: 'name',
+    },
+    {
+        type: 'input',
+        message: "What is your main email address?",
+        name: 'email',
+    },
+    {
+        type: 'input',
+        message: "What is your github link?",
+        name: 'creator',
+    },
+    {
+        type: 'input',
         message: "What is the title of your project?",
         name: 'title',
     },

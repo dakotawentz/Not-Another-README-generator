@@ -52,11 +52,11 @@ ${license.usage}
 ## Contributors
 ${license.contributors}
 ## Testing
-${license.test}
+${license.tests}
 
 ${renderLicenseSection(license.license)}
 ## Questions
-${license.question}
+${license.questions}
 `;
 }
 
