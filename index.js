@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const path = require("path")
-const octokit = require("./utils/api")
+// const octokit = require("./utils/api")
 
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");

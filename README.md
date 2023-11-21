@@ -1,5 +1,5 @@
-# .
-by .
+# Not-Another-README-generator
+by Dakota Wentz
 #license undefined
     ![GitHub License](https://img.shields.io/github/license/undefined/undefined)
     
@@ -14,18 +14,18 @@ by .
 * [License](#license)
 
 ## Description
-.
+Description
 ## Usage
-..
+Usage instructions.
 ## Contact-me
-* Name - .
-* Email - ..
-* Github - [.](https://github.com/./)
+* Name - Dakota Wentz
+* Email - dswentz@gmail.com
+* Github - [https://github.com/dakotawentz](https://github.com/https://github.com/dakotawentz/)
 ## Contributors
-.
+Guidelines on how developers can contribute.
 ## Testing
-.
+Any tests that could be written/used
 
-#license Apache License 2.0
+#license MIT License
 ## Questions
-.
+No
