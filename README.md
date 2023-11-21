@@ -1,6 +1,8 @@
-# NodeJS
+# nodejs
 by undefined
-![Github license](https://img.shields.io/badge/license-MIT License-yellowgreen.svg)
+#license undefined
+    ![GitHub License](https://img.shields.io/github/license/undefined/undefined)
+    
 ## Table of Contents
 *[Description](#description)
 *[Requirements](#requirements)
@@ -12,9 +14,9 @@ by undefined
 * [License](#license)
 
 ## Description
-Create a program using NodeJS to have users fill out information and upon filling out said information, the program generates a README.md file.
+This is where a descriptor of the project would go.
 ## Usage
-Refer to above^
+This is where you would describe how to use the application.
 ## Contact-me
 * Name - undefined
 * Email - undefined

@@ -2,7 +2,9 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if(license !== "none") {
-    return `![Github license](https://img.shields.io/badge/license-${license}-yellowgreen.svg)`;
+    return `#license ${license.title}
+    ![GitHub License](https://img.shields.io/github/license/${license.username}/${license.repo})
+    `;
   }
   return "";
   }
@@ -27,10 +29,10 @@ function renderLicenseSection(license) {
 }
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
-by ${data.name}
-${renderLicenseBadge(data.license)}
+function generateMarkdown(license) {
+  return `# ${license.title}
+by ${license.name}
+${renderLicenseBadge(license.license)}
 ## Table of Contents
 *[Description](#description)
 *[Requirements](#requirements)
@@ -38,24 +40,24 @@ ${renderLicenseBadge(data.license)}
 *[Contact-Me](#contact-me)
 *[Contributors](#contributors)
 *[Testing](#testing)
-${renderLicenseLink(data.license)}
+${renderLicenseLink(license.license)}
 ## Description
-${data.description}
+${license.description}
 ## Usage
-${data.usage}
+${license.usage}
 ## Contact-me
-* Name - ${data.name}
-* Email - ${data.email}
-* Github - [${data.creator}](https://github.com/${data.creator}/)
+* Name - ${license.name}
+* Email - ${license.email}
+* Github - [${license.creator}](https://github.com/${license.creator}/)
 ## Contributors
-${data.contributors}
+${license.contributors}
 ## Testing
 \`\`\`
-${data.test}
+${license.test}
 \`\`\`
-${renderLicenseSection(data.license)}
+${renderLicenseSection(license.license)}
 ## Questions
-${data.question}
+${license.question}
 `;
 }
 
