@@ -41,8 +41,6 @@ ${renderLicenseBadge(data.license)}
 ${renderLicenseLink(data.license)}
 ## Description
 ${data.description}
-## Requirements
-${data.require}
 ## Usage
 ${data.usage}
 ## Contact-me
