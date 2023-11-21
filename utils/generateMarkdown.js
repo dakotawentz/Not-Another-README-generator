@@ -52,9 +52,8 @@ ${license.usage}
 ## Contributors
 ${license.contributors}
 ## Testing
-\`\`\`
 ${license.test}
-\`\`\`
+
 ${renderLicenseSection(license.license)}
 ## Questions
 ${license.question}
