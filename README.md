@@ -4,13 +4,12 @@ by Dakota Wentz
     ![GitHub License](https://img.shields.io/github/license/undefined/undefined)
     
 ## Table of Contents
-*[Description](#description)
-*[Requirements](#requirements)
-*[Usage](#usage)
-*[Contact-Me](#contact-me)
-*[Contributors](#contributors)
-*[Testing](#testing)
-
+* [Description](#description)
+* [Requirements](#requirements)
+* [Usage](#usage)
+* [Contact-Me](#contact-me)
+* [Contributors](#contributors)
+* [Testing](#testing)
 * [License](#license)
 
 ## Description
